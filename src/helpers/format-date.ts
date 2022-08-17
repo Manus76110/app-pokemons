@@ -1,0 +1,6 @@
+// modifie le format de la date sur la carte
+const formatDate = (date: Date): string => {
+    return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`;
+}
+
+export default formatDate;
